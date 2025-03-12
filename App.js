@@ -1,10 +1,7 @@
-
-import { Text } from 'react-native';
+import Routes from "./src/routes.js";
 
 export default function App() {
-  return (
-      <Text>Jornada JS </Text>
-     
-  );
+  return <>
+    <Routes />
+  </>;
 }
-
